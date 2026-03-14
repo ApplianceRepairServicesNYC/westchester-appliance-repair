@@ -40,6 +40,66 @@ const brandData = {
     commonIssues: 'Samsung refrigerator ice maker freezing, washer vibration issues, dryer not heating, smart connectivity problems, error codes',
     whyChoose: 'Our technicians are trained on Samsung\'s digital inverter technology, smart home integration, and can diagnose error codes on all Samsung smart appliances.'
   },
+  'ge': {
+    name: 'GE',
+    title: 'GE Appliance Repair of Westchester County - Same Day',
+    description: 'Expert GE refrigerator, washer, dryer, dishwasher & range repair in Westchester County NY. America\'s trusted appliance brand specialists. Same day service in White Plains, Yonkers, Scarsdale & all Westchester County.',
+    heroTitle: 'GE Appliance Repair of Westchester County',
+    about: 'General Electric has been a cornerstone of American homes since 1892. From refrigerators to ranges, GE appliances are known for reliability and innovation. GE Appliances is now headquartered in Louisville, Kentucky.',
+    specialty: 'refrigerators, dishwashers, ranges, washers, dryers, microwaves, and wall ovens',
+    commonIssues: 'GE refrigerator not cooling, dishwasher not draining, oven igniter problems, washer not spinning, dryer not heating, ice maker issues',
+    whyChoose: 'Our Westchester County technicians have extensive experience with GE\'s wide range of appliances, from classic models to the latest GE Profile and GE Cafe smart appliances.'
+  },
+  'lg': {
+    name: 'LG',
+    title: 'LG Appliance Repair of Westchester County - Same Day',
+    description: 'Expert LG refrigerator, washer, dryer & range repair in Westchester County NY. Smart ThinQ appliance specialists. Same day service in White Plains, New Rochelle, Mount Vernon & all Westchester County.',
+    heroTitle: 'LG Appliance Repair of Westchester County',
+    about: 'LG Electronics brings innovative Korean engineering to American homes with industry-leading features like ThinQ smart technology, InstaView refrigerators, and TurboWash washers.',
+    specialty: 'French door refrigerators, front-load washers, dryers, dishwashers, ranges, and smart appliances',
+    commonIssues: 'LG refrigerator compressor failure, washer LE error code, dryer not heating, dishwasher not cleaning, ice maker problems',
+    whyChoose: 'Our technicians are trained on LG\'s linear compressor technology, ThinQ smart home integration, and can diagnose all LG error codes quickly.'
+  },
+  'whirlpool': {
+    name: 'Whirlpool',
+    title: 'Whirlpool Appliance Repair of Westchester County - Same Day',
+    description: 'Expert Whirlpool refrigerator, washer, dryer, dishwasher & range repair in Westchester County NY. America\'s #1 appliance brand specialists. Same day service throughout Westchester County.',
+    heroTitle: 'Whirlpool Appliance Repair of Westchester County',
+    about: 'Whirlpool Corporation, founded in 1911 in Benton Harbor, Michigan, is the world\'s leading major home appliance company. Whirlpool appliances are found in more American homes than any other brand.',
+    specialty: 'refrigerators, washers, dryers, dishwashers, ranges, and microwaves',
+    commonIssues: 'Whirlpool washer not draining, refrigerator not cooling, dishwasher not cleaning, dryer not heating, oven temperature issues',
+    whyChoose: 'Our technicians have decades of combined experience with Whirlpool\'s reliable designs and maintain extensive parts inventory for fast Whirlpool repairs.'
+  },
+  'maytag': {
+    name: 'Maytag',
+    title: 'Maytag Appliance Repair of Westchester County - Same Day',
+    description: 'Expert Maytag washer, dryer, dishwasher & refrigerator repair in Westchester County NY. Dependable appliance specialists. Same day service in Yonkers, White Plains & all Westchester County.',
+    heroTitle: 'Maytag Appliance Repair of Westchester County',
+    about: 'Maytag has been building dependable appliances since 1893 in Newton, Iowa. Known for durability and the iconic Maytag Repairman, Maytag appliances are built to handle heavy family use.',
+    specialty: 'washers, dryers, dishwashers, refrigerators, and ranges',
+    commonIssues: 'Maytag washer not spinning, dryer squeaking, dishwasher not draining, refrigerator ice maker problems, oven not heating',
+    whyChoose: 'We understand Maytag\'s heavy-duty construction and PowerWash technology, keeping your dependable Maytag appliances running strong.'
+  },
+  'frigidaire': {
+    name: 'Frigidaire',
+    title: 'Frigidaire Appliance Repair of Westchester County - Same Day',
+    description: 'Expert Frigidaire refrigerator, range, dishwasher & laundry repair in Westchester County NY. Trusted appliance brand specialists. Same day service throughout Westchester County.',
+    heroTitle: 'Frigidaire Appliance Repair of Westchester County',
+    about: 'Frigidaire invented the self-contained refrigerator in 1916 and has been an American kitchen staple ever since. Now part of Electrolux, Frigidaire continues to offer reliable, affordable appliances.',
+    specialty: 'refrigerators, ranges, dishwashers, washers, dryers, and freezers',
+    commonIssues: 'Frigidaire refrigerator not cooling, oven not heating, dishwasher not cleaning, washer vibration, freezer frost buildup',
+    whyChoose: 'Our technicians are experienced with Frigidaire\'s full appliance lineup and Frigidaire Gallery and Professional series for complete repair coverage.'
+  },
+  'bosch': {
+    name: 'Bosch',
+    title: 'Bosch Appliance Repair of Westchester County - Same Day',
+    description: 'Expert Bosch dishwasher, refrigerator, washer & dryer repair in Westchester County NY. German engineering specialists. Same day service in Scarsdale, Bronxville & all Westchester County.',
+    heroTitle: 'Bosch Appliance Repair of Westchester County',
+    about: 'Bosch brings German precision engineering to American homes. Known for whisper-quiet dishwashers and efficient European-style laundry, Bosch is the choice for discerning Westchester County homeowners.',
+    specialty: 'dishwashers, compact washers, ventless dryers, refrigerators, and wall ovens',
+    commonIssues: 'Bosch dishwasher E24 error, not draining, washer door lock problems, dryer not heating, refrigerator temperature issues',
+    whyChoose: 'Our technicians understand Bosch\'s European engineering standards, including their unique condensation drying technology and PrecisionWash systems.'
+  },
   'kitchenaid': {
     name: 'KitchenAid',
     title: 'KitchenAid Appliance Repair of Westchester County - Same Day',
