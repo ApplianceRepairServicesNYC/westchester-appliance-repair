@@ -100,6 +100,16 @@ const brandData = {
     commonIssues: 'Bosch dishwasher E24 error, not draining, washer door lock problems, dryer not heating, refrigerator temperature issues',
     whyChoose: 'Our technicians understand Bosch\'s European engineering standards, including their unique condensation drying technology and PrecisionWash systems.'
   },
+  'amana': {
+    name: 'Amana',
+    title: 'Amana Appliance Repair of Westchester County - Same Day',
+    description: 'Expert Amana refrigerator, washer, dryer, dishwasher & range repair in Westchester County NY. Reliable appliance specialists. Same day service throughout Westchester County.',
+    heroTitle: 'Amana Appliance Repair of Westchester County',
+    about: 'Amana has been making quality appliances in Middle America since 1934. Originally famous for refrigeration innovations, Amana now offers a full line of dependable, affordable home appliances.',
+    specialty: 'refrigerators, washers, dryers, dishwashers, ranges, and microwaves',
+    commonIssues: 'Amana refrigerator not cooling, washer not draining, dryer not heating, dishwasher not cleaning, oven temperature issues',
+    whyChoose: 'Our technicians are experienced with Amana\'s straightforward, reliable designs and maintain parts for quick repairs on all Amana appliances.'
+  },
   'kitchenaid': {
     name: 'KitchenAid',
     title: 'KitchenAid Appliance Repair of Westchester County - Same Day',
