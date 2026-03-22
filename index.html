@@ -1797,14 +1797,29 @@
             
             updateSlider();
 
-            // Form submission - native POST to FormSubmit
-            // Show success modal if redirected back after form submission
-            if (window.location.search.includes('submitted=true')) {
-                document.getElementById('cfSuccessModal').classList.add('active');
-                document.getElementById('cfModalOverlay').classList.add('active');
-                history.replaceState(null, '', window.location.pathname);
+            // Form submission via fetch
+            var cfContactForm = document.getElementById('cfContactForm');
+            if (cfContactForm) {
+                cfContactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    var userEmail = this.Email.value.trim();
+                    fetch('https://formsubmit.co/ajax/insuranceappliance@gmail.com', {
+                        method: 'POST',
+                        body: new FormData(this),
+                        headers: {'Accept': 'application/json'}
+                    }).then(function(response) {
+                        if (response.ok) {
+                            cfContactForm.reset();
+                            document.getElementById('successMessage').innerHTML = '<strong>Thank you!</strong><br><br>Your request has been sent.<br><br>We will contact you at<br><strong>' + userEmail + '</strong><br>within 30 minutes.';
+                            document.getElementById('cfSuccessModal').classList.add('active');
+                            document.getElementById('cfModalOverlay').classList.add('active');
+                        }
+                    }).catch(function() {
+                        alert('Failed to send. Please try again or call us.');
+                    });
+                });
             }
-            
+
             // Modal close handlers
             var cfCloseModal = document.getElementById('cfCloseModal');
             if (cfCloseModal) {
